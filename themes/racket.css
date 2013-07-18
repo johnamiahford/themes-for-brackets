@@ -1,0 +1,152 @@
+/*
+*	@URL http://www.github.com/johnamiahford/brackets-[name]-theme
+*	@developer John Amiah Ford
+*	@release_date 07/17/2013
+*	@license MIT
+*	@version v0.1
+*/
+
+/*--- Global styles ---*/
+
+/* Allow the editor view to scale the entire window */
+.main-view .content {
+  max-width: 100%;
+  right: 0;
+}
+/* Sidebar */
+#sidebar {
+  background: #333;
+}
+#working-set-header, #project-files-header {
+  color: #658AAF;
+}
+/* Bottom status bar */
+#status-bar {
+  background: #242322;
+  font-size: 13px;
+}
+/* Status bar text */
+#status-indicators, #status-info {
+  background: transparent;
+  color: #f9faf4;
+}
+#status-indicators {
+  right: 1%;
+}
+/* Quick nav toolbar icons */
+#main-toolbar {
+  background: transparent;
+  right: 1%;
+  height: auto;
+}
+#main-toolbar .buttons {
+  position: relative;
+  z-index: 9;
+}
+/* Quick-edit styles */
+.inline-widget {
+  background:#3d3d3d;
+}
+
+/*--- CodeMirror styles ---*/
+
+.cm-s-racket.CodeMirror {
+  font-family: Menlo, 'SourceCodePro', 'Andale Mono', monospace !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  background: #242322;
+  color: #f9faf4;
+}
+.cm-s-racket div.CodeMirror-cursor {
+  border-left: 1px solid #f8f8f0;
+  z-index: 3;
+}
+.CodeMirror-selected {
+  background: #3d3d3d;
+  opacity: 0.20;
+}
+.cm-s-racket .cm-keyword {
+  color: #f9faf4;
+  font-weight: 600;
+}
+.cm-s-racket .cm-atom {
+  color: #A4C261;
+}
+.cm-s-racket .cm-number {
+  color: #A4C261;
+}
+.cm-s-racket .cm-def {
+  color: #658AAF;
+}
+.cm-s-racket .cm-variable {
+  color: #CB666B;
+}
+.cm-s-racket .cm-variable-2 {
+  color: #CB666B;
+}
+.cm-s-racket .cm-variable-3 {
+  color: #CB666B;
+}
+.cm-s-racket .cm-property {
+  color: #658AAF;
+}
+.cm-s-racket .cm-operator {
+  color: #f9faf4;
+}
+.cm-s-racket .cm-comment {
+  color: #747676;
+}
+.cm-s-racket .cm-string {
+  color: #A4C261;
+}
+.cm-s-racket .cm-string-2 {
+  color: #c48cff;
+}
+.cm-s-racket .cm-meta {
+  color: #D8B778;
+}
+.cm-s-racket .cm-qualifier, .CodeMirror span.cm-builtin {
+  color: #f9faf4;
+}
+.cm-s-racket .cm-bracket {
+  color: #f9faf4;
+}
+.cm-s-racket .cm-tag {
+  color: #658AAF;
+}
+.cm-s-racket .cm-attribute {
+  color: #658AAF;
+}
+.cm-s-racket .cm-error {
+  color: #d85d5d;
+}
+.cm-s-racket .cm-matchhighlight {
+  background-color: rgba(61, 61, 61, 0.23);
+}
+.cm-s-racket .activeline {
+  background: rgba(33, 33, 33, 0.15);
+}
+.cm-s-racket span.CodeMirror-matchingbracket {
+  color: #a7ec21;
+  font-weight: bold;
+}
+.cm-s-racket span.CodeMirror-searching {
+  background-color: none;
+  background: none;
+  box-shadow: 0 0 0 1px #fff;
+}
+.cm-s-racket .CodeMirror-linenumber, .cm-s-racket .CodeMirror-gutters {
+  color: #727272;
+  background-color: #242322;
+}
+.cm-s-racket span.cm-matchhighlight.CodeMirror-searching.CodeMirror-selectedtext {
+  background-color: #ffe69d;
+  color: #242424;
+}
+
+/*--- Optional settings & extensions ---*/
+
+/* Vimbar style the "Normal mode" cursor and the status bar */
+#vimderbar, .CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
+  background: #0D638A;
+}
