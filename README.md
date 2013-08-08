@@ -37,4 +37,4 @@ Didn't find the answer you were looking for? Send me a mail at jacsebl@hotmail.c
 
 Contact and contribute
 ==================
-If you want to add a theme or would like to talk to me for some other reason, please send me a mail at jacsebl@hotmail.com
+If you want to add a theme or would like to talk to me for some other reason, please send me a mail at jacsebl@hotmail.com. You are also very welcome to open a pull request.
