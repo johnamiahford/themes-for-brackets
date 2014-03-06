@@ -1,3 +1,31 @@
+.cm-s-dark-soda .CodeMirror-scroll{
+	border-color: #202020;
+}
+
+.CodeMirror .CodeMirror-vscrollbar{ width: 10px; bottom: 10px !important;} /*Scrollbar vertical. These values MUST be the same as height/width of scrollbars*/
+.CodeMirror .CodeMirror-hscrollbar{ height:10px; right:10px !important;} /*Scrollbar horizontal. These values MUST be the same as height/width of scrollbars*/
+.CodeMirror ::-webkit-scrollbar { width: 10px; height:10px;} /* The width of vertical scrollbars and height of horizontal scrollbars*/
+.CodeMirror-scrollbar-filler {height:10px !important; width:10px !important;} /* Corner where scrollbars meet. Width and height MUST be the same as that of scrollbars. Background should be the same as that of the scrollbar track*/
+.CodeMirror-gutter-filler{ height:10px !important;} /* Linenumber area left of horizontal scrollbar. Height MUST be the same as width/height of scrollbars */
+
+
+.cm-s-dark-soda ::-webkit-scrollbar-track, .cm-s-dark-soda .CodeMirror-gutter-filler, .cm-s-dark-soda .CodeMirror-scrollbar-filler {
+    background: transparent;
+}
+
+.cm-s-dark-soda ::-webkit-scrollbar-thumb {
+    background: #191919;
+    border-radius: 5px;
+}
+.cm-s-dark-soda ::-webkit-scrollbar-thumb:hover {
+	background: #121212;
+}
+.cm-s-dark-soda ::-webkit-scrollbar-thumb:active {
+	background: #0f0f0f;
+}
+
+
+
 #status-bar{ /* Bottom status bar */
     border-top:1px solid #484b4d;
 	background:#3C3F41;
@@ -169,32 +197,37 @@ code {
     opacity: .23; 
 }
 
-.cm-s-dark-soda .cm-keyword {color: #ff007f;}
-.cm-s-dark-soda .cm-atom {color: #c48cff;}
-.cm-s-dark-soda .cm-number {color: #c48cff;}
-.cm-s-dark-soda .cm-def {color: #fd963f;}
-.cm-s-dark-soda .cm-variable {color: #fff;}
-.cm-s-dark-soda .cm-variable-2 {color: #c48cff;}
-.cm-s-dark-soda .cm-property {color: #52e3f6;}
-.cm-s-dark-soda .cm-operator {color: #ff007f;}
-.cm-s-dark-soda .cm-comment {color: #8c8c8c;}
-.cm-s-dark-soda .cm-string {color: #ece47e;}
-.cm-s-dark-soda .cm-string-2 {color: #ece47e;}
-.cm-s-dark-soda .cm-meta {color: #a7ec21;}
-.cm-s-dark-soda .cm-qualifier, .CodeMirror span.cm-builtin {color: #a7ec21;}
-.cm-s-dark-soda .cm-bracket {color: #f9faf4;}
-.cm-s-dark-soda .cm-tag {color: #ff007f;}
-.cm-s-dark-soda .cm-attribute {color: #a7ec21;}
-.cm-s-dark-soda .cm-matchhighlight {background-color: rgba(61,61,61.23);}
+.cm-s-dark-soda span.cm-keyword {color: #ff007f;}
+.cm-s-dark-soda span.cm-atom {color: #c48cff;}
+.cm-s-dark-soda span.cm-number {color: #c48cff;}
+.cm-s-dark-soda span.cm-def {color: #fd963f;}
+.cm-s-dark-soda span.cm-variable {color: #fff;}
+.cm-s-dark-soda span.cm-variable-2 {color: #c48cff;}
+.cm-s-dark-soda span.cm-property {color: #52e3f6;}
+.cm-s-dark-soda span.cm-operator {color: #ff007f;}
+.cm-s-dark-soda span.cm-comment {color: #8c8c8c;}
+.cm-s-dark-soda span.cm-string {color: #ece47e;}
+.cm-s-dark-soda span.cm-string-2 {color: #ece47e;}
+.cm-s-dark-soda span.cm-meta {color: #a7ec21;}
+.cm-s-dark-soda span.cm-qualifier, .CodeMirror span.cm-builtin {color: #a7ec21;}
+.cm-s-dark-soda span.cm-bracket {color: #f9faf4;}
+.cm-s-dark-soda span.cm-tag {color: #ff007f !important;}
+.cm-s-dark-soda span.cm-attribute {color: #a7ec21;}
+.cm-s-dark-soda span.cm-matchhighlight {background-color: rgba(61,61,61,23);}
 
 .cm-s-dark-soda span.CodeMirror-matchingbracket {
     color: #a7ec21;
     font-weight: bold;
 }
 
+.cm-s-dark-soda span.CodeMirror-matchingtag {
+	color: #a7ec21 !important;
+    text-decoration:underline;
+	background:none;
+}
+
 
 .cm-s-dark-soda span.CodeMirror-searching {
-  background-color: none;
   background: none;
   box-shadow: 0 0 0 1px #fff;
 }
@@ -204,8 +237,15 @@ code {
 	background-color: #242424;
 }
 
+.cm-s-dark-soda.CodeMirror .CodeMirror-linenumber {
+	padding-left: 18px;
+}
 
 .cm-s-dark-soda span.cm-matchhighlight.CodeMirror-searching.CodeMirror-selectedtext {
     background-color: #ffe69d;
     color: #242424;
+}
+.cm-s-dark-soda.CodeMirror-focused .CodeMirror-activeline-background, .cm-s-dark-soda.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background-color: #3C3F41;
+    color: #d9d9d9;
 }

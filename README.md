@@ -1,18 +1,29 @@
 Themes for Brackets
 ==================
-With Themes for Brackets you can apply themes to Brackets via a menu in the top bar. Do you want to hear the best part of Themes for Brackets? New themes are added all the time, and you can even make your own, or tweak already existing ones.
+With Themes for Brackets you can apply themes to Brackets via a menu in the top bar. Do you want to hear the best part of Themes for Brackets? New themes are added all the time, and you can even make your own or tweak already existing ones.
 
 List of themes
 ==================
-* Visual Studio <br />![Visual Studio theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/visual-studio.png)
 * Ambiance <br />![Ambiance Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/ambiance.png)
-* Rubyblue <br />![Cobalt Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/rubyblue.png)
-* Light table
-* Solarized Dark
-* Cobalt
-* Dark Soda
-* Night Sky
-* Default
+* Night Sky <br />![Night Sky Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/night-sky.png)
+* Dark Soda <br />![Dark Soda Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/dark-soda.png)
+* Rubyblue <br />![Rubyblue Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/rubyblue.png)
+* Visual Studio <br />![Visual Studio Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/visual-studio.png)
+* Solarized Dark <br />![Solarized Dark Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/solarized-dark.png)
+* Cobalt <br />![Cobalt Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/cobalt.png)
+* Light Table <br />![Light Table Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/light-table.png)
+* MBO <br />![MBO Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/mbo.png)
+* Dracula <br />![Dracula Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/dracula.png)
+* Brunante <br />![Brunante Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/brunante.png)
+* Superman <br />![Superman Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/superman.png)
+* Default <br />![Default Theme](https://raw.github.com/Jacse/themes-for-brackets/master/images/default.png)
+
+How to make you own theme
+==================
+Creating your own theme is easy.<br/>
+Have a look at Pawel's bare Brackets theme [here](https://github.com/trimek/BearTheme/blob/master/BearTheme.css).<br/>
+Copy it, customize it and add it to the custom themes folder (on windows it is located at C:\Users\\[USERNAME]\AppData\Roaming\Brackets\custom themes) (on a mac it is located at ~/Library/Application Support/Brackets/custom themes).
+
 
 How to install
 ==================
@@ -27,16 +38,12 @@ If you are having trouble installing the extension that way, you can follow thes
 * Install from url...
 * Copy https://github.com/Jacse/themes-for-brackets in there and click OK
 
-FAQ
-==================
-* Can I make my own theme?
- - Sure thing, all you need to do is make a new css file in the themes/ folder.<br/><b>HINT:</b> I would recommend looking at already existing themes to find ids and classes.
-
 Troubleshooting
 ==================
-* There are no commands in the themes menu?
+* There are no commands in the themes menu
  - Try re-opening Brackets, that should help it.
-* My line numbers are looking weird?
+ - If that doesn't help and you're on a Mac, you might need to create the /Applications/Brackets.app/Contents/www/extensions/dev folder.
+* Line numbers are looking weird or scrollbars are not styled/have dissapeared
  - Try hitting F5 (Save changes before doing so!).
 
 Didn't find the answer you were looking for? Send me a mail at jacsebl@hotmail.com I'll be glad to help you out!

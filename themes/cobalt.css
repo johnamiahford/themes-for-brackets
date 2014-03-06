@@ -37,6 +37,10 @@
 	background:rgba(255,255,255, 0.06);
 }
 
+.cm-s-cobalt.CodeMirror-focused .CodeMirror-activeline-background, .cm-s-cobalt.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+  background: rgba(255, 255, 255, 0.1);
+}
+
 /** CodeMirror styles **/
 .cm-s-cobalt.CodeMirror { background: #002240; color: white; }
 .cm-s-cobalt div.CodeMirror-selected { background: #b36539 !important; }
@@ -56,3 +60,12 @@
 .cm-s-cobalt span.cm-bracket { color: #d8d8d8; }
 .cm-s-cobalt span.cm-builtin, .cm-s-cobalt span.cm-special { color: #ff9e59; }
 .cm-s-cobalt span.cm-link { color: #845dc4; }
+
+.cm-s-cobalt span.CodeMirror-matchingtag {
+    color:white;
+	background:rgba(255,255,255,0.2);
+}
+
+.cm-s-cobalt.CodeMirror .CodeMirror-linenumber {
+	padding-left: 18px;
+}
